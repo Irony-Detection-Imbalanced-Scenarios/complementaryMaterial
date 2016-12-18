@@ -1,0 +1,80 @@
+List of features in emotIDM 
+
+lenghtWords - the number of words in a tweet
+lenghtChar - the number of characters in a tweet
+colon - the total of colons in a tweet
+exclamation - the total of exclamation marks in a tweet
+question - the total of question marks in a tweet
+pm (punctuation marks) - the sum of colon + exclamation + question
+upperCaseChars - the total amount of uppercase characters in a tweet
+verbs - the frequency of words labeled as verbs according to PoS
+nouns - the frequency of words labeled as nouns according to PoS
+adjectives - the frequency of words labeled as adjectives according to PoS
+adverbs - the frequency of words labeled as adverbs according to PoS
+totalEmoticons - the total number of emoticons in a tweet
+val_counter - frequency of counter-factuality terms
+val_temporal - frequency of temporal compression terms
+hashtagsFreq - the number of hashtags in a tweet
+mentionsFreq - the number of mentions in a tweet
+rt - binary absence/presence of retweet 
+simi2 - the degree of inconsistency in a tweet the Wu&Palmer semantic similarity measure
+afinn_pos - the sum of the score of each positive word in the tweet according to AFINN
+afinn_neg - the sum of the score of each positive word in the tweet according to AFINN
+afinn_total - the difference of the afinnPos and afinnNeg values
+hl_pos - the frequency of positive terms in the tweet according to Hu&Liu
+hl_neg - the frequency of negative terms in the tweet according to Hu&Liu
+hl_value - the difference of the hlPos and hlNeg values 
+gi_pos - the frequency of positive terms in the tweet according to General Inquirer
+gi_neg - the frequency of negative terms in the tweet according to General Inquirer
+gi_value - the difference of the gi_pos and gi_neg values
+emolex_positive - the frequency of positive terms in the tweet according to EmoLex
+emolex_negative - the frequency of negative terms in the tweet according to EmoLex
+swn_pos - the sum of the positive score of each word in the tweet according to SentiWordNet
+swn_neg - the sum of the negative score of each word in the tweet according to SentiWordNet 
+swn_total - the sum of the positive score of each word in the tweet according to SentiWordNet
+sn_polarity - the sum of the polarity score of each word in the tweet according to SenticNet 
+polForSN - the value obtained with the formula defined by Cambria et al.
+so_value - the sum of the score of each word in the tweet according to Semantic Orientation
+effecnet_positive - the frequency of positive terms in the tweet according to EffectNet
+effecnet_negative - the frequency of negative terms in the tweet according to EffectNet
+effecnet_null - the frequency of null terms in the tweet according to EffectNet
+subj_pos_strong - the frequency of positive strong terms in the tweet according to Subjectivity lexicon
+subj_pos_weak - the frequency of positive weak terms in the tweet according to Subjectivity lexicon
+subj_neg_strong - the frequency of positive strong terms in the tweet according to Subjectivity lexicon
+subj_neg_weak - the frequency of negative weak terms in the tweet according to Subjectivity lexicon
+dal_ple - the sum of the Pleasentness score of each word in the tweet according to DAL 
+dal_act - the sum of the Actitude score of each word in the tweet according to DAL 
+dal_ima - the sum of the Imagery score of each word in the tweet according to DAL 
+sn_pleas - the sum of the Pleasentness score of each word in the tweet according to SenticNet 
+sn_atten - the sum of the Attention score of each word in the tweet according to SenticNet 
+sn_sensit - the sum of the Sensitivity score of each word in the tweet according to SenticNet 
+sn_apti - the sum of the Aptitude score of each word in the tweet according to SenticNet 
+anew_val - the sum of the Valence score of each word in the tweet according to ANEW
+anew_aro - the sum of the Arousal score of each word in the tweet according to ANEW
+anew_dom - the sum of the Dominance score of each word in the tweet according to ANEW
+liwc_positive - the frequency of positive terms in the tweet according to LIWC
+liwc_negative - the frequency of negative terms in the tweet according to LIWC
+liwc_value - the difference of the liwc_positive and liwc_negative values
+emolex_anger - the frequency of terms related to Anger in the tweet according to EmoLex
+emolex_anticipation - the frequency of terms related to Anticipation in the tweet according to EmoLex
+emolex_disgust - the frequency of terms related to Disgust in the tweet according to EmoLex
+emolex_fear - the frequency of terms related to Fear in the tweet according to EmoLex
+emolex_joy - the frequency of terms related to Joy in the tweet according to EmoLex
+emolex_sadness - the frequency of terms related to Sadness in the tweet according to EmoLex
+emolex_surprise - the frequency of terms related to Surprise in the tweet according to EmoLex
+emolex_trust - the frequency of terms related to Trust in the tweet according to EmoLex
+emosn_anger - the frequency of terms related to Anger in the tweet according to EmoSenticNet
+emosn_disgust - the frequency of terms related to Disgust in the tweet according to EmoSenticNet
+emosn_joy - the frequency of terms related to Joy in the tweet according to EmoSenticNet
+emosn_sadness - the frequency of terms related to Sadness in the tweet according to EmoSenticNet
+emosn_surprise - the frequency of terms related to Surprise in the tweet according to EmoSenticNet
+emosn_fear - the frequency of terms related to Fear in the tweet according to EmoSenticNet
+sentisense_anger - the frequency of terms related to Anger in the tweet according to Sentisense
+sentisense_disgust - the frequency of terms related to Disgust in the tweet according to Sentisense
+sentisense_joy - the frequency of terms related to Joy in the tweet according to Sentisense
+sentisense_sadness - the frequency of terms related to Sadness in the tweet according to Sentisense
+sentisense_surprise - the frequency of terms related to Surprise in the tweet according to Sentisense
+sentisense_fear - the frequency of terms related to Fear in the tweet according to Sentisense
+sentisense_anticipation - the frequency of terms related to Anticipation in the tweet according to Sentisense
+sentisense_like - the frequency of terms related to Like in the tweet according to Sentisense
+sentisense_love - the frequency of terms related to Love in the tweet according to Sentisense
